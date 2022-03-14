@@ -55,6 +55,7 @@
                             implementationClass="org.intellij.sdk.language.SimpleCompletionContributor"/>
     <psi.referenceContributor language="JAVA"
                               implementation="org.intellij.sdk.language.SimpleReferenceContributor"/>
+    <psi.referenceContributor language="XML" implementation="org.intellij.sdk.language.SimpleXmlReferenceContributor"/>
     <lang.refactoringSupport language="Simple"
                              implementationClass="org.intellij.sdk.language.SimpleRefactoringSupportProvider"/>
     <lang.findUsagesProvider language="Simple"
